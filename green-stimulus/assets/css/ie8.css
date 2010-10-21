@@ -1,0 +1,7 @@
+img { -ms-interpolation-mode: bicubic; }
+
+.two-col #sidebar { width: 280px; margin-right: -30px }
+
+#footer-widgets .widget { width: 300px }
+
+#blog-nav span { width: 49.6% }

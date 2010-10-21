@@ -1,0 +1,66 @@
+/*
+
+COLORS
+---------------------------------------------
+	Brown									#895c13
+	Dark Brown						#4f350b
+	Green 								#99bd0c
+	Orange								#de8800
+--------------------------------------------- 
+
+*/
+
+#header .logo a { color: #ffffff }
+
+
+a { color: #895c13 }
+a:hover { color: #de8800 }
+
+input, textarea { border-color:#895c13 }
+input[type=submit], input#submit, input.submit { background-color: #4f350b; color: #ffffff}
+
+#header {background: #895c13; }
+
+#main-nav li { border-color: #895c13 }
+#main-nav li a { color: #e3f8c8 }
+#main-nav li a:hover { color: #ffffff}
+#main-nav .current-menu-item, #main-nav .current_page_item { border-color: #e7e8a1; }
+#main-nav .current-menu-item a, #main-nav .current_page_item a { color: #ffffff }
+
+#main-nav .active { background:#4f350b; border-color:#4f350b;}
+#main-nav .active>a { color: #ffffff}
+#main-nav li>ul li a{ background:#4f350b; color: #ffffff; }
+#main-nav li>ul li a:hover { background:  #99bd0c; color: #ffffff }
+
+#header #searchform input { background: #b89966; color: #ffffff}
+
+#header #searchform #searchsubmit { background: url(sprite.gif) no-repeat 0 4px}
+
+#slideshow .slide-caption{ background: #4f350b; color:#e7f6af }
+#slideshow .slide-caption:hover{ background: #de8800; color: #f2d9b0 }
+#slideshow .slide-caption p { color:#e7f6af }
+#slideshow .slide-caption strong { color: #ffffff}
+#slide-nav a { background: url(sprite.gif) 5px -38px}
+#slide-nav .activeSlide { background: url(sprite.gif) -20px -38px}
+
+#intro-text { color: #8c8c8c}
+#social {color: #818181}
+
+#homepage-widgets .widget, #homepage-widgets .widget p { font-size: 14px; line-height: 170%}
+
+h1, h2, h3 { color: #99bd0c }
+h4 { color: #8E8E8E }
+h5 { color: #B7B7B7}
+
+.post .date { background: #895c13 }
+.post .date strong { font-weight: normal; line-height: 18px}
+.post .post-content h3, .post .post-content h3 a { color: #99bd0c} 
+.post .post-content h3 a:hover { color: #de8800 }
+.post-meta .keep-reading a { color: #99bd0c }
+.post-meta .keep-reading a:hover { color: #de8800 }
+.post .post-thumbnail, .post .wp-post-image { border: 6px solid #dedede; width: 520px; height: 130px; margin-bottom: 20px; }
+
+
+#content ul li { background: url(sprite.gif) no-repeat 0 -71px; padding: 5px 0 5px 25px}
+
+.page-navigation .current-menu-item>a { color: #4f350b }

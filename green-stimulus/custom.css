@@ -1,0 +1,134 @@
+/* 
+
+******************************************************************************
+
+NOTE: When updating the Green Stimulus theme to a newer version,
+make sure to copy this file and your /custom-images folder to your hard drive.  
+After the update, recopy custom.css and /custom-images to the Green Stimulus 
+theme directory.
+
+******************************************************************************
+
+
+Use this CSS file to add your own custom styles to Green Stimulus!  If you need to add any custom images, use the 'custom-images' folder located in the root of the theme directory.
+
+If an element you'd like to customize with CSS doesn't appear below, use Firebug or Google Chrome's inspector to identify class names, ID names, and element hierarchy.
+
+*/
+
+
+/* Default text */  body, td, p {}
+
+/* Elements */
+blockquote {}
+ol {}
+ol li {}
+
+input, textarea {}
+input:focus, textarea:focus {}
+
+table {}
+table th {}
+table th, td {}
+
+/* Typography */
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+dl {}
+dt {}
+
+/* ! HEADER
+============================================================================================= */
+
+#header {}
+#header .container {}
+/* If specificed a logo */ #header .logo img {}
+/* If no logo specificed */ #header h1.logo {}
+
+
+/* ! MAIN NAVIGATION */
+#main-nav ul {}
+#main-nav li {}
+#main-nav li a {}
+
+/* Dropdowns */
+
+/* Level 1 */
+#main-nav li>ul {}
+#main-nav li>ul li {}
+#main-nav li>ul li a{}
+	/* Level 2 */ #main-nav li>ul li ul {}
+
+/* ! Search */
+#header #searchform {}
+#header #searchform #s {}
+#header #searchform #searchsubmit {}
+
+/* ! Slideshow */
+
+/* Container */ #slideshow {}
+#slideshow .slide {}
+#slideshow .slide-caption {}
+
+/* Slide Navigation - uses CSS Sprites */
+#slide-nav {}
+#slide-nav a {}
+
+
+/* Homepage blurb */ #intro-text {}
+/* Social Icons */ #social .social img {}
+
+/* ! Homepage Widgets */
+#homepage-widgets .widget {}
+
+
+/* ! CONTENT
+============================================================================================= */
+
+/* ! Sidebar */
+#sidebar {}
+
+/* Sidebar Widgets */
+/* 3 column */ .three-col #sidebar .widget, .three-col #sidebar .widget p, .three-col #sidebar .widget li {}
+/* Everything else */ #sidebar .widget, #sidebar .widget li, #sidebar .widget p {}
+
+
+/* ! POSTS */ 
+.post {}
+.post .date {}
+.post-content {}
+.post-meta .keep-reading {}
+
+.post-text blockquote, .post-text blockquote p {}
+
+
+/* ! Comments */
+#comments-area {}
+#comments-area textarea {}
+#comments-area .commentlist {}
+#comments-area .commentlist li {}
+#comments-area .avatar {}
+#comments-area .reply {}
+.comment-body p {}
+
+
+/* ! FOOTER
+============================================================================================= */
+#footer {}
+#footer .copyright {}
+
+#footer-widgets {}
+#footer-widgets .widget {}
+
+.powered-by-salesforce {}
+
+.social-footer {}
+.social-footer a {}
+
+

@@ -1,0 +1,46 @@
+/* ! Default Text */ body, td, p, input, textarea { font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif; line-height: 150% }
+
+/* ! Main Nav */ #main-nav { font-size: 16px; font-weight: bold; line-height: 1}
+
+/* ! Slider */
+#slideshow .slide-caption strong { font-size: 24px; }
+#slideshow .slide-caption { font-size: 14px;}
+
+/* ! Social */
+#social { font-size: 16px }
+.tweet-meta { font-size: 12px}
+#social .social { font-size: 15px}
+
+/* ! Elements */
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 40px; letter-spacing: -1px; margin-bottom: 30px}
+h2 { font-size: 32px; letter-spacing: -1px; margin-bottom: 30px}
+h3 { font-size: 26px; letter-spacing: -1px; margin-bottom: 20px; line-height: 120%}
+h4 { font-size: 20px; letter-spacing: -1px; margin-bottom: 20px; line-height: 120%}
+h5 { font-size: 16px; margin-bottom: 20px; line-height: 120%}
+h6 { font-size: 14px; text-transform: uppercase; margin-bottom: 20px;}
+
+dl { font-weight: bold; }
+dt { font-weight: normal }
+
+/* ! Posts */
+.post .date { font-weight: bold; }
+.post-text, .post-text p { font-size: 14px; line-height: 180%}
+
+.post-meta {  font-size: 11px; }
+.post-meta a { font-weight: bold }
+.post-meta .keep-reading { font-size: 16px }
+
+.post-text blockquote, .post-text blockquote p {  font-size: .95em }
+
+
+/* ! Widgets */
+#sidebar .widget, #sidebar .widget li, #sidebar .widget p { font-size: 14px}
+.three-col #sidebar .widget, .three-col #sidebar .widget p, .three-col #sidebar .widget li { font-size: 12px}
+#homepage-widgets .widget h3 { font-weight: bold }
+
+/* ! Footer */
+#footer, #footer p { font-size: 14px }
+#footer .copyright { font-size: 12px }
+
+.social-footer, .powered-by-salesforce { font-size: 12px }

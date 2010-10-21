@@ -1,0 +1,237 @@
+/* 
+
+GREEN STIMULUS GLOBAL STYLESHEET
+=============================================
+
+Created by Chelsea Otakan for Salesforce CRM.
+URI: http://www.livelylabs.com
+
+NOTE: If you'd like to customize this theme with css, please use the custom.css file located in the root of the theme directory.
+
+*/
+
+/* ! RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0}:focus{outline:0}body{line-height:1;color:#000;background:#FFF;display: inline}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:400}blockquote,q{quotes:none}a{text-decoration: none}
+
+/* ! CLEAR FIX  */
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+* html .group { height: 1% }
+*:first-child+html .group { min-height: 1px }
+
+/* ! WRAPPER */
+
+#wrapper { width: 940px; margin: auto }
+.container { width: 940px; margin: auto }
+
+
+/* ! Elements */
+
+body, td, p { color: #646464}
+
+p { margin-bottom: 10px}
+
+blockquote { border-left: 4px #d1d1d1 solid; padding: 3px 20px; margin: 20px 0; font-size: 90%}
+ol { list-style: decimal; padding-left: 30px; margin: 10px 0; font-size: 90%}
+big { font-size: 300% }
+address { font-style: italic; font-size: 80%}
+dt { padding-left: 20px }
+
+input, textarea { padding: 5px 10px; border-width: 2px; border-style: solid; color: #666666; background: #ffffff; font-size: 14px }
+input:focus, textarea:focus { border-color: #de8800 }
+
+table { border-right: 1px #cccccc solid}
+table th { background: #e2e2e2; }
+table th, td { border-left: 1px #cccccc solid; padding: 5px 10px; }
+
+
+/* ! HEADER
+============================================================================================= */
+
+#header { min-height: 100px}
+#header .logo-text { min-height: 100px; float: left}
+#header .container {position: relative; padding-top: 5px}
+#header a.logo { float: left; padding-bottom: 15px }
+#header h1.logo { margin-top: 40px; font-size: 2.3em; letter-spacing: .02em }
+#header div.logo { margin-top: 40px; font-size: 2.3em; font-weight: bold; letter-spacing: .02em }
+
+
+/* ! MAIN NAVIGATION */
+#main-nav ul { float: right; bottom: 0px; right: 0px; position: absolute; padding: 0; margin: 0}
+#main-nav li { position: relative;display: block; float: left; margin-left: 7px; padding: 8px 5px 10px 5px;border-bottom-width: 5px; border-bottom-style: solid }
+#main-nav li a { display: block; float: left; padding: 0 5px}
+#main-nav li>ul { display: none; position: absolute; top: 34px; left: 0px; width: 200px; z-index: 200 }
+#main-nav li>ul li { border: 0; margin: 0; height: auto; padding: 0}
+#main-nav li>ul li a{ display: block; width: 200px; float: left; font-size: 12px; padding: 13px 11px; margin: 0 }
+#main-nav li>ul li ul { margin-left: 200px; position: absolute; margin-top: -20px}
+
+/* ! Search */
+#header #searchform { float: right }
+#header #searchform input { border: 0; height: 30px; padding: 0 10px; margin-top: 5px; }
+#header #searchform #s { width: 200px }
+#header #searchform #searchsubmit { padding: 0; width: 30px; text-indent: 28px; margin-left: -30px;}
+
+/* ! Slideshow */
+#slideshow { height: 360px; margin-top: 30px; position: relative; }
+#slideshow .slide { position: absolute; top: 0  }
+#slideshow .slide-caption { display: block; width: 350px; position: absolute; top: 20px; padding: 15px; margin-left: -10px; z-index: 500;}
+#slideshow .slide-caption strong { font-weight: bold; display: block; margin-bottom: 5px}
+#slide-nav { margin: auto; text-align: center; border-bottom: 1px #d1d1d1 solid; padding-bottom: 10px}
+#slide-nav a { padding: 3px; margin: 0 5px; width: 25px; height: 25px; overflow: hidden; display: inline-block; text-indent: -9999px }         
+
+#slideshow .video .play-video { position: absolute; width: 920px; height: 195px; background: #000000; background: rgba(0,0,0,.60); color: #ffffff; font-size: 35px; text-align: right; padding-top: 145px; padding-right: 20px; z-index: 300 }
+#slideshow .video .video-embed { display: none }
+
+#intro-text { width: 490px ; float: left; font-size: 24px; border-right: 1px #d1d1d1 solid; padding: 30px}
+#social { padding: 30px 10px 30px 80px; float: right; width: 299px;border-left: 1px #d1d1d1 solid; margin-left: -1px }
+#social .tweet-meta { margin: 20px 0}
+#social .social {border-top: 1px #d1d1d1 solid; padding-top: 20px; text-align: right }
+#social .social strong { color: #979797; font-weight: bold; display: block; text-align: left; float: left }
+#social .social img { margin-left: 6px;}
+
+/* ! Homepage Widgets */
+#homepage-widgets { border-top: 1px #d1d1d1 solid; border-bottom: 1px #d1d1d1 solid; clear: both; }
+#homepage-widgets .widget { width: 270px; float: left; padding: 20px}
+
+/* ! CONTENT
+============================================================================================= */
+
+#content { margin-top: 25px }
+#main-content { border-right: 1px #d1d1d1 solid; margin-right: -1px;  }
+
+#social { background:url(../images/twitter-bird.png) 25px 40px no-repeat }
+
+/* ! Sidebar */
+#sidebar { margin-bottom: 1px }
+#sidebar .widget { border-top: 1px #d1d1d1 solid;border-bottom: 1px #d1d1d1 solid; margin: 0 0 -1px 0; padding: 30px 20px}
+
+h2.updates { padding-bottom: 25px;border-bottom: 1px #d1d1d1 solid; margin-bottom: -1px }
+
+
+/* ! POSTS */ 
+.post {border-bottom: 1px #ccc solid; padding: 40px 0 0 0}
+.post .date { display: block; float: left; width: 60px; height: 50px; color: #ffffff; text-align: center; padding-top: 10px}
+.post-content { margin-left: 90px }.post-meta { border-top: 1px #d1d1d1 solid; margin: 20px 0 0 0;padding: 15px 0 }
+.post-meta p { display: block; padding: 0 10px; float: left; margin: 0}
+.post-meta .keep-reading { float: right; padding-right: 0; display: block; position: relative; top: -2px; padding-left: 10px}
+
+/* ! Post images */ 
+.post .post-thumbnail, .post .wp-post-image { border: 6px solid #dedede; width: 520px; height: 130px; margin-bottom: 20px; }
+
+/* ! Post Gallery */
+#main-content .post-text .gallery img { max-width: 100%; height: auto  }
+.post-text .gallery dt, .post-text .gallery dd { padding: 10px 10px 0 0}
+
+/* ! Multi-page Posts */
+.single .link-pages { border-bottom: 1px #d1d1d1 solid; padding: 10px 20px; text-transform: uppercase; text-align: center; margin: 1px 20px}
+.single .link-pages span { padding: 10px 10px; font-weight: bold; font-size: 11px;  border-bottom: 5px #cccccc solid; margin: 0 10px}
+.single .link-pages a span { font-weight: normal; font-size: 11px; border-bottom: 1px #cccccc solid; padding-bottom: 14px }
+
+/* ! Previous / Next */
+#blog-nav { border-top: 1px #d1d1d1 solid; border-bottom: 1px #d1d1d1 solid; margin: -1px 0 30px 0; }
+#blog-nav span { width: 49.9%; display: block; float: left;  padding: 15px 0; height: 27px }
+#blog-nav .prev { text-align: left; border-right: 1px #d1d1d1 solid; }
+#blog-nav .next { text-align: right;  }
+
+
+/* ! Pages & Single Templates */
+.single #main-content, .page #main-content {border-top: 1px #ccc solid; padding: 30px 0}
+.single .single-content p { margin-bottom: 20px; font-size: 14px}
+.single #main-content, .page #main-content { margin-bottom: 30px}
+.single .wp-post-image { border: 6px solid #dedede; width: auto; margin-bottom: 20px; }
+
+.single .post, .search-no-results .post { border: 0; padding-top: 30px; padding-bottom: 30px}
+
+.single #wrapper .post-meta p { display: block; float: none; font-size: 11px; margin: 5px 0}
+#wrapper .single-content .link-pages { font-size: 12px; text-transform: uppercase }
+
+.error404 .post { padding: 40px 0 100px 0; text-align: center }
+.error404 #main-content { border: 0; padding: 30px 0}
+
+.page-navigation .current-menu-item>a, .page-navigation .current_page_item>a { font-weight: bold }
+
+/* ! Comments */
+#comments-area { border-top: 1px #d1d1d1 solid; padding: 30px 0}
+#comments-area textarea { width: 90% }
+#comments-area .commentlist li { padding: 0 30px; border-left: 5px #d8d8d8 solid; margin: 30px 0; list-style-type: none; background: none; font-size: 14px}
+#comments-area .commentlist li ul li { font-size: 12px}
+#comments-area .commentlist {margin-bottom: 30px}
+#comments-area .avatar { float: left ; margin: 0 15px 15px 0}
+
+.comment-author, .comment-meta { text-transform: uppercase; font-size: 12px}
+.comment-body p { display: block; clear: both}
+#comments-area .reply { text-align: right;border-bottom: 1px #cccccc solid; padding: 10px; font-size: 12px}
+#reply-title { padding-top: 10px}
+#reply-title small { font-size: 20px; display: block; float: right}
+.form-allowed-tags { font-size: 11px}
+
+
+/* ! Columns */
+
+#main-content img { max-width:100%; width: auto; height: auto }
+
+#sidebar .sidebar { overflow: hidden}
+#sidebar .sidebar .widget .sidebar { border: 0; width: auto}
+
+.three-col #main-content { width: 480px; float: left; padding-right: 30px }
+.three-col #sidebar { width: 450px; float: right; margin-right: -20px  }
+.three-col #sidebar .sidebar { width: 222px; float: left; border-left:1px #d1d1d1 solid; border-right: 1px #d1d1d1 solid; margin-right: -1px }
+.three-col .post-meta .author-cat { width: 28%}
+.three-col .post-meta .comments { width: 22% }
+
+.two-col #main-content { width: 620px; float: left; padding-right:40px; margin-right: -1px }
+.two-col .author-cat { width: 40%}
+.two-col .post-meta .comments { width: 20% }
+.two-col #sidebar { width: 280px; float: left;border-left:1px #d1d1d1 solid; margin-right: -1px }
+
+.one-col #main-content { border-right: 0}
+.one-col #sidebar { margin: 50px -30px 50px -10px;}
+.one-col #sidebar .sidebar { clear: both }
+.one-col #sidebar .widget { width: 178px; float: left; margin: 10px; border: 1px #d1d1d1 solid }
+.one-col .post-meta .author-cat { width: 54%}
+.one-col .post-meta .comments { width: 20% }
+
+
+
+/* ! FOOTER
+============================================================================================= */
+#footer { border-top: 1px #d1d1d1 solid;border-bottom: 1px #d1d1d1 solid;  margin-top: -1px; margin-bottom: 10px }
+
+#footer .copyright { float: left; width: 150px; padding: 30px 30px 30px 0}
+#footer-widgets { width: 760px; float: right; }
+#footer-widgets .widget { float: left; width: 325px; padding: 25px 0 25px 25px; margin-right: 25px; border-left: 1px #d1d1d1 solid; }
+
+.powered-by-salesforce { display: block; float: left; margin-top: 8px}
+
+.social-footer { float: right; padding-bottom: 50px }
+.social-footer a { position: relative; top: 6px; margin-left: 10px}
+
+
+
+/* ! Specific Widgets
+============================================================================================= */
+
+#content .sociable ul li { background: none; padding: 5px}
+
+#wp-calendar { border: 1px #d1d1d1 solid; padding: 5px; width: 100% }
+#wp-calendar caption { text-align: center; font-weight: bold; padding: 0 5px; width: 100%; background: #cccccc; border: 1px #cccccc solid;}
+#wp-calendar th { padding: 5px; margin: 0; text-align: center; color: #cccccc; font-weight: bold; border-bottom: 1px #cccccc solid }
+#wp-calendar td { padding: 5px; margin: 0; text-align: center; color: #888888 }
+#wp-calendar td a { font-weight: bold}
+
+#content .widget form { border: 0; width: auto }
+#content .widget form input, #content .widget form textarea { display: block; width: auto; float: left}
+#content .w2llead label { display: block; clear: both; margin: 0 0 -5px 0; padding: 10px 0 0 0; font-size: 12px; text-transform: uppercase; color: #a1a1a1; font-weight: bold }
+#content .w2llead br { display: none}
+#content .widget-area .widget .w2llead input, #content .widget-area .widget .w2llead textarea { width: 85%}
+#content .widget-area .widget .w2llead textarea { margin-bottom: 20px}
+#content .widget-area .widget .w2linput.submit { width: auto; padding: 5px 20px; margin: auto; float: none; display: block; clear: both}
+#content .widget-area .widget #requiredfieldsmsg { font-size: 11px; text-align: center; padding: 10px 0}
+
+.rsswidget img { display: inline-block; padding-bottom: 5px; padding-right: 10px}
+.widget .rss-date { display: block; font-size: 11px; text-transform: uppercase; font-weight: bold;}
+.widget .rssSummary { font-size: 11px; line-height: 1.5}
+.widget h3 .rsswidget { font-weight: normal }
+.widget .rsswidget { line-height: 1.4; font-weight: bold}
+.widget cite { font-size: 11px; font-weight: bold; color: #b1b1b1; text-transform: uppercase} 
+
+#salesforce small { font-size: 11px; font-weight: bold; text-align: center; display: block}
