@@ -153,10 +153,10 @@
 				    $stepTwo = explode("</content>", $stepOne[1]);
 				    $tweet = $stepTwo[0];
 					$tweet = htmlspecialchars_decode($tweet,ENT_QUOTES);
-				    return $tweet;
+				    return $tweet;   
 				}
 
-				$twitterFeed = file_get_contents($feed);
+				$twitterFeed = wp_remote_fopen($feed);
 				echo(parse_feed($twitterFeed));?>
 			</p>
 
