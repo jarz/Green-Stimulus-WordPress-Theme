@@ -37,7 +37,7 @@
 				<?php if( $options['youtube'] != '' ): ?>
 					<a href="http://youtube.com/<?php echo $options['youtube']; ?>" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/youtube.png" alt="YouTube" /></a>
 				<?php endif; ?>
-					<a href="/rss" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/rss.png" alt="RSS" /></a>
+					<a href="<?php bloginfo_rss('rss2_url') ?>" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/rss.png" alt="RSS" /></a>
 	</span>
 </div> <!-- #wrapper -->
 
