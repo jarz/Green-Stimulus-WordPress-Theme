@@ -27,7 +27,7 @@
 
 /* ! Default Text */ body, td, p, input, textarea { font-family: 'Lucida Grande', Verdana, 'Helvetica Neue', Helvetica, Arial, Sans-serif; line-height: 170% }
 
-/* ! Main Nav */ #main-nav { font-size: 14px; font-weight: bold; line-height: 1}
+/* ! Main Nav */ #main-nav { font-size: 16px; font-weight: bold; line-height: 1}
 
 /* ! Slider */
 #slideshow .slide-caption strong { font-size: 34px; line-height: 40px; font-weight: normal; font-family: 'Museo Slab', 'MuseoSlab500', Trebuchet, Georgia, Serif }

@@ -51,19 +51,18 @@
 			<?php if ($options['logoaddress'] != null) { ?>
 				<a href="<?php bloginfo('url'); ?>" class="logo"><img src = "<?php echo $options['logoaddress']; ?>" alt="<?php if($options['businessname'] != null) echo $options['businessname']; else echo bloginfo('name'); ?>" /></a>
 			<?php } else { ?>
-					<div class="logo-text">
+				<div class="logo-text">
+	
 						<?php if(is_home()) { ?>
 						<h1 class = "logo">
 							<a href="<?php bloginfo('url'); ?>" class="logo"><?php if($options['businessname'] != null) echo $options['businessname']; else echo bloginfo('name'); ?></a>
 						</h1>
 						<?php } else { ?>
-						<div class="logo-text">
 
 							<h1 class="logo">
 								<a href="<?php bloginfo('url'); ?>" class="logo"><?php if($options['businessname'] != null) echo $options['businessname']; else echo bloginfo('name'); ?></a>
 							</h1>
 							
-						</div>
 						<?php } ?>
 					</div>
 			
@@ -72,7 +71,7 @@
 		
 		<?php get_search_form(); ?>
 		<!-- ! Main Nav -->
-		<div id="main-nav">
+		<div id="main-nav" class="group">
 			<?php wp_nav_menu( array( 'container' => '', 'theme_location' => 'stimulus_mainnav' ) ); ?>
 		</div>
 
