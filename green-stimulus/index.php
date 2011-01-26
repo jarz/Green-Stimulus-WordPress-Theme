@@ -32,11 +32,10 @@
 			<?php } ?>
 			<div class="post-content">	
 				<div class="post-content-container">				
-					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					<h3><a href="<?php the_permalink(); ?>"><?php if( get_the_title() ) { the_title(); } else { echo 'Post Permalink'; } ?></a></h3>
 					<div class="post-text group">
-					<?php if($options['numcols'] == 'three-col') { the_post_thumbnail('post-thumb-threecol'); } else { the_post_thumbnail('post-thumb-onetwocol');  } 
-					the_excerpt(); ?>
-					<?php echo get_the_content(); ?>
+					<?php if($options['numcols'] == 'three-col') { the_post_thumbnail('post-thumb-threecol'); } else { the_post_thumbnail('post-thumb-onetwocol');  } ?>
+					<?php the_content(); ?>
 					</div><!-- .post-text -->	
 				</div><!-- .post-content-container -->	
 				<div class="post-meta group">
