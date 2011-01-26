@@ -10,8 +10,8 @@ $GLOBALS['content_width'] = 900;
 add_theme_support('automatic-feed-links');
 
 
-require_once ( get_template_directory() . '/theme-options.php' );
-require_once ( 'slider/stimulus-slider.php' );  
+require_once ( 'functions/theme-options.php' );
+require_once ( 'functions/stimulus-slider.php' );  
           
 
 /* Define Theme Defaults */
