@@ -17,7 +17,7 @@
 
 				<div class="post-meta">
 					<p><strong>Categories:</strong> <?php the_category('&nbsp;'); ?> </p>
-					<?php the_tags('<p><strong>Tags:</strong>&nbsp;','&nbsp;','</p>'); ?>
+					<?php the_tags('<p><strong>Tags:</strong>&nbsp;',' ','</p>'); ?>
 					<?php if($options['showDates'] == true) { ?>
 					<p class="posted-on">
 						Posted on <?php the_date(); ?> at <?php the_time(); ?>.
