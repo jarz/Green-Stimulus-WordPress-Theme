@@ -25,7 +25,7 @@
 	<div id="main-content">
 	
 	<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-		<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+		<div <?php post_class();?> id="post-<?php the_ID(); ?>">
 			<?php if($options['showDates'] == true) { ?>
 			<span class="date"><?php the_time('M'); ?><strong><?php the_time('d'); ?></strong></span>
 			<?php } ?>

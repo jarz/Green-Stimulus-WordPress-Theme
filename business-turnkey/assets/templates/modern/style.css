@@ -1,5 +1,7 @@
-a { color: #1f1f1f}
+a { color: #1f1f1f }
 a:hover { color: #000000}
+
+.post-content p a, .widget p a { border-bottom: 1px #ccc dotted}
 
 input[type=submit] { background: #000000; color: #ffffff; padding: 10px 20px ; border: 0; font-size: 1em}
 input { border: 1px #898989 solid; padding: 5px  }
@@ -29,7 +31,7 @@ blockquote {color: #505050 }
 .social .rss a { background-position: -112px -426px}
 
 .social .facebook a:hover { background-position: 0 -402px }
-.social .twitter a:hover { background-position: -28px -402px}
+.social .twitter a:hover #header .menu>ul
 .social .flickr a:hover { background-position: -57px -402px}
 .social .youtube a:hover { background-position: -84px -402px}
 .social .rss a:hover { background-position: -112px -402px}
@@ -52,6 +54,16 @@ blockquote {color: #505050 }
 #main-nav li ul li {background: #ffffff; }
 #main-nav li ul { margin: 0; padding: 0; background: transparent}
 #main-nav>li>ul li a:hover { background: #cccccc; color: #000000 }
+
+#header .menu>ul { margin-top: 10px }
+#header .menu>ul li a { border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 4px 12px; color: #767676; display: block; float: left; margin-left: 10px;  }
+#header .menu>ul li a:hover { color: #2b2b2b }
+#wrapper #header .menu>ul .active a { background: #1f1f1f; color: #ffffff; line-height: 28px }
+#header .menu>ul .active a:hover { color: #ffffff}
+#header .menu>ul li ul li a { border: 1px #cccccc solid;margin: -1px 0;}
+#header .menu>ul li ul li {background: #ffffff; }
+#header .menu>ul li ul { margin: 0; padding: 0; background: transparent}
+#header .menu>ul>li>ul li a:hover { background: #cccccc; color: #000000 }
 
 #slideshow { padding: 28px 0 0 0 ; margin: 0}
 #slideshow .slide { background: #ffffff }

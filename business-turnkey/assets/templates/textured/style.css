@@ -56,11 +56,10 @@ blockquote {color: #2f2f2f }
 #slideshow { padding: 28px 0 20px 30px ; margin: 0 0 0 -25px; background: url(bg-slideshow.jpg) no-repeat; width: 1011px }
 #slideshow .slide { color: #f2e7ce}
 #slideshow .slide h2 a { color: #ffffff}
-#slideshow .slide-img { background: url(slide-shadow.gif) no-repeat bottom ; padding-bottom: 16px }
+#slideshow .slide-img { background: url(slide-shadow.gif) no-repeat bottom left ; padding-bottom: 16px }
 #slideshow .slide-img embed, #slideshow .slide-img object, #slideshow .slide-img img { background: #ffffff }
 #slideshow .learn-more { text-align: center}
 #slideshow .btn { height: 20px }
-#slideshow .slide-content { margin: 15px 10px 15px 60px}
 
 .video-embed { background: #000000; text-align: center; padding: 10px 10px 100px 10px; width: 60%; height: 60%; }
 .video-embed object, .video-embed embed { width: 100%; height: 110%}

@@ -69,7 +69,7 @@
 	</div><!-- .wrap -->
 </div><!-- #super-header -->
 
-<div id="wrapper" class="group">
+<div id="wrapper" class="group <?php if($options['showDates'] == false) { ?>no-dates<?php } ?>">
 
 	<div id="header" class="group">
 		

@@ -14,7 +14,7 @@ body, td, p, p a, input, span { font-family: Georgia, Palatino, Times New Roman,
 
 a { text-decoration: none }
 
-h1, h2, h3, h4, .logo, #main-nav, #top-nav, .btn, #slideshow .video .play-video {font-family: 'Bebas Neue', 'BebasNeueRegular', 'Bebas', 'League Gothic', Helvetica, Arial, Sans-serif; font-weight: normal; letter-spacing: .08em}
+h1, h2, h3, h4, .logo, #main-nav, #top-nav, #super-header .menu, .btn, #slideshow .video .play-video, #header .menu ul {font-family: 'Bebas Neue', 'BebasNeueRegular', 'Bebas', 'League Gothic', Helvetica, Arial, Sans-serif; font-weight: normal; letter-spacing: .08em}
 
 h1 { font-size: 40px; }
 h2 { font-size: 36px; line-height: 1.1 }
@@ -35,12 +35,12 @@ h4 { font-size: 26px }
 
 /* Specific */
 
-#top-nav li a { font-size: 16px; line-height: 24px }
+#top-nav li a, #super-header .menu { font-size: 16px; line-height: 24px}
 .logo { font-size: 38px; }
 #wrapper #main-nav li a { font-size: 26px; line-height: 25px }
 #wrapper #main-nav .active a { line-height: 35px}
 
-#wrapper #header .menu ul li a { font-size: 26px; line-height: 25px }
+#wrapper #header .menu>ul>li>a { font-size: 26px; line-height: 25px }
 #wrapper #header .menu ul .active a { line-height: 35px}
 
 #footer .widget h3 { font-size: 24px }
@@ -57,8 +57,7 @@ h4 { font-size: 26px }
 
 #main-nav ul li a { font-family: Georgia, Palatino, 'Times New Roman', serif; letter-spacing: 0; }
 
-#header .menu ul li ul a { font-family: Georgia, Palatino, 'Times New Roman', serif; letter-spacing: 0; }
-#header .menu ul li ul { display: none}
+
 
 /* Posts */
 

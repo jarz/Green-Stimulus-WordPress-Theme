@@ -33,11 +33,11 @@ body, td, p, p a, input, span { font-family: "Lucida Grande", Verdana, Tahoma, A
 
 a { text-decoration: none }
 
-h1, h2, h3, h4, .logo, #top-nav, #slideshow .video .play-video {font-family: 'Eau Sans Bold', 'EauSansBold', Helvetica, Arial, Sans-serif; font-weight: normal; letter-spacing: -1px}
+h1, h2, h3, h4, .logo, #top-nav, #super-header .menu, #slideshow .video .play-video {font-family: 'Eau Sans Bold', 'EauSansBold', Helvetica, Arial, Sans-serif; font-weight: normal; letter-spacing: -1px}
 
-.btn, #main-nav {font-family: 'Eau Sans Book', 'EauSansBook', Helvetica, Arial, Sans-serif}
+.btn, #main-nav, #header .menu {font-family: 'Eau Sans Book', 'EauSansBook', Helvetica, Arial, Sans-serif}
 
-#main-nav .active a { line-height: 34px}
+#main-nav .active a, #header .menu .active a { line-height: 34px}
 
 h1 { font-size: 40px; margin-bottom: 30px }
 h2 { font-size: 36px; line-height: 1.1 }
@@ -64,12 +64,12 @@ h4 { font-size: 26px }
 
 /* Specific */
 
-#top-nav { font-size: 15px }
+#top-nav, #super-header .menu { font-size: 15px }
 .logo { font-size: 34px; font-family: 'EauSansBold', 'EauSansBlack', "Lucida Grande", "Verdana", sans-serif; letter-spacing: -1px; line-height: 60px }
 
 #slideshow h2 a { font-size: 28px; font-family: 'Eau Sans Bold', 'EauSansBold', Helvetica, Arial, Sans-serif; font-weight: normal }
 
-#main-nav a { font-size: 18px }
+#main-nav a, #header .menu a { font-size: 18px }
 
 #footer p { font-family: 'Eau Sans Book', 'EauSansBook', Helvetica, Arial, Sans-serif; line-height: 1.8; font-size: 13px}
 #footer .widget h3 { font-size: 16px; letter-spacing: 0; margin-bottom: 10px}
