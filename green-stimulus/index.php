@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php $options = get_option('stimulus_theme_options'); ?>
 
-<?php if ($options['showPosts'] == true ) { ?>
+<?php if($options['showPosts'] == false && is_home() ) {} else { ?>
 <div id="content" class="blog-entries group <?php if( $options['numcols'] != null ) { echo $options['numcols']; } else { echo 'two-col'; } ?>">
 	<h2 class="updates">
 		<?php if(is_home()) { ?>Recent Updates
