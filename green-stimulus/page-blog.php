@@ -63,7 +63,7 @@ Template Name: Blog Template 2
 
 					<?php endwhile; ?>
 					<div id="blog-nav" class="group">
-						<span class="prev btn"><?php next_posts_link('&larr; &nbsp; Previous') ?></span> 
+						<span class="prev btn"><?php previous_posts_link('&larr; &nbsp; Previous') ?></span> 
 						<span class="next btn"><?php next_posts_link('Next &nbsp; &rarr;') ?></span>
 					</div>
 
